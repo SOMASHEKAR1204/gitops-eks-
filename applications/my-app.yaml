@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<ORG>/gitops-eks.git
-    targetRevision: main
-    path: apps/my-app
+    repoURL: https://github.com/somashekar-v/gitops-eks.git
+    targetRevision: master
+    path: manifests/my-app
 
   destination:
     server: https://kubernetes.default.svc
